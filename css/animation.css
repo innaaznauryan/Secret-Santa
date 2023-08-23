@@ -1,0 +1,146 @@
+@keyframes snowfall1 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(100px, 98vh);
+    }
+}
+@keyframes snowfall2 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-100px, 98vh);
+    }
+}
+@keyframes snowfall3 {
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(50px, 45vh);
+    }
+    100%{
+        transform: translate(-50px, 98vh);
+    }
+}
+@keyframes snowfall4 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-50px, 98vh);
+    }
+}
+@keyframes snowfall5 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(80px, 98vh);
+    }
+}
+@keyframes snowfall6 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-80px, 98vh);
+    }
+}
+@keyframes snowfall7 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(50px, 98vh);
+    }
+}
+@keyframes snowfall8 {
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(-100px, 45vh);
+    }
+    100%{
+        transform: translate(100px, 98vh);
+    }
+}
+@keyframes snowfall9 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(150px, 98vh);
+    }
+}
+@keyframes snowfall10 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-150px, 98vh);
+    }
+}
+
+.snowflake{
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.635);
+    display: inline-block;
+    position: static;
+    z-index: 9;
+}
+
+.sky{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 150px;
+    .big{
+        width: 10px;
+        height: 10px;
+    }
+    .mid{
+        width: 7px;
+        height: 7px;
+    }
+    .small{
+        width: 5px;
+        height: 5px;
+    }
+    .type1{
+        animation: snowfall1 6s linear infinite;
+    }
+    .type2{
+        animation: snowfall2 5s linear 1s infinite;
+    }
+    .type3{
+        animation: snowfall3 5s linear 2s infinite;
+    }
+    .type4{
+        animation: snowfall4 5s linear 3s infinite;
+    }
+    .type5{
+        animation: snowfall5 5s linear 4s infinite;
+    }
+    .type6{
+        animation: snowfall6 5s linear infinite;
+    }
+    .type7{
+        animation: snowfall7 5s linear 1s infinite;
+    }
+    .type8{
+        animation: snowfall8 5s linear 2s infinite;
+    }
+    .type9{
+        animation: snowfall9 5s linear 3s infinite;
+    }
+    .type10{
+        animation: snowfall10 5s linear 4s infinite;
+    }
+}
