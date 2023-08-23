@@ -20,8 +20,8 @@ const btn = document.createElement("button")
 
 player.type = "text"
 player.placeholder = "Player"
-add.innerText = "Add player"
-submit.innerText = "Submit"
+add.innerText = "Add Player"
+submit.innerText = "Start Game"
 img.src = "./image/santa.png"
 img.alt = "santa"
 h1.innerText = "Secret Santa: Unknown"
