@@ -66,6 +66,8 @@ btn.addEventListener("click", function() {
     if (index < entries.length) {
         h1.innerText = `Secret Santa: ${entries[index][0]}`
         h2.innerText = `Happy Kid: ${entries[index][1]}`
+        h2.classList.add("blur")
+        h2.classList.remove("clear")
         index++
     } else {
         h1.innerText = "Thank you!"
@@ -76,6 +78,11 @@ btn.addEventListener("click", function() {
         arr.length = 0
         entries.length = 0
     }
+})
+
+h2.addEventListener("click", function() {
+    h2.classList.add("clear")
+    h2.classList.remove("blur")
 })
 
 // appendance 
