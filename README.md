@@ -1,5 +1,7 @@
 # Secret-Santa Game with Snowflake Animations
 
+This project is in production and available via the following link! [Secret Santa](https://secretsantagamewithanimation.netlify.app/)
+
 ### Description:
 This project is a Secret Santa game implemented in Vanilla Javascript with CSS for animations. It allows users to input participant names, randomly assigns Secret Santa and Kid pairs, and displays the pairs on the screen. Additionally, it features a captivating snowflake animation in the background.
 
